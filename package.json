@@ -1,0 +1,23 @@
+{
+  "name": "agreen",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "./node_modules/gulp/bin/gulp.js",
+    "watch": "NODE_ENV=watch ./node_modules/gulp/bin/gulp.js watch",
+    "clean": "./node_modules/gulp/bin/gulp.js clean"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "webpack": "~1.12.14",
+    "jquery": "~2.2.1",
+    "materialize-css": "~0.97.5"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-webpack": "~1.5.0",
+    "gulp-clean": "~0.3.2",
+    "merge-stream": "~1.0.0"
+  }
+}
