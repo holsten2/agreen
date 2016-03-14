@@ -3,6 +3,6 @@ Place third party libs in there to properly access them.
 
 
 commands:
-`npm run build`
-`npm run watch`
-`npm run clean`
+- `npm run build`
+- `npm run watch`
+- `npm run clean`
