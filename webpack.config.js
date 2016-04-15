@@ -1,4 +1,5 @@
 
+// TODO: implement production setting that will uglify
 var watch = process.env.NODE_ENV == "watch";
 var webpack = require('webpack');
 
