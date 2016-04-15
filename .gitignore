@@ -1,0 +1,4 @@
+node_modules
+rest/build
+rest/dev/libs/*
+rest/dev/font/*
