@@ -40,7 +40,7 @@ func (s *Service) run() {
 
 	r.PathPrefix("/").Handler(files)
 	err := http.ListenAndServe(":3000", r)
-	// err := SSL.ListenAndServeTLS(fmt.Sprintf(":%d", s.port), "/usr/local/logrhythm/zeus/server.crt", "/usr/local/logrhythm/zeus/server.key", r)
+	// err := SSL.ListenAndServeTLS(fmt.Sprintf(":%d", s.port), "server.crt", "server.key", r)
 	if nil != err {
 		log.Critical("Failed to listen on port ", 3000, " err: ", err)
 		os.Exit(2)
